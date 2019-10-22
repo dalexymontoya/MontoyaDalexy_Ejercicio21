@@ -2,10 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 x = np.linspace(0, 2*np.pi, 200)
-sen = np.sen(x)
+cos = np.cos(x)
 
-plt.plot(sen)
-plt.savefig("seno.png")
+plt.plot(cos)
+plt.savefig("cos.png")
 
 
 
